@@ -54,6 +54,22 @@ textarea{
   stroke: #1DA1F2;
 }
 
+.w-7{
+  stroke: #1DB954;
+  display: block;
+}
+
+.w-7:hover{
+  stroke: #16893f;
+}
+
+
 .w-6:hover{
   fill: #125582;
+}
+
+.authorname{
+  font-size: small;
+  font-weight: 200;
+  margin-top: 5px;
 }
