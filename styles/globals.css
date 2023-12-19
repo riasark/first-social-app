@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #F5F8FA;
+}
+
+h1{
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: xx-large;
+  color: #1DA1F2;
+}
+
+.mt-5{
+  border-top: 20px;
+  border-top-color: black;
+}
+
+.mt-5:hover{
+  cursor: pointer;
+  color: #1DA1F2;
+}
+
+.textcard{
+  width: 700px;
+  height: 200px;
+}
+
+.textinput{
+  margin-top: 12px;
+  line-height: 175px;
+  width: 675px;
+}
+
+.textinput::placeholder{
+  text-align: start;
+}
