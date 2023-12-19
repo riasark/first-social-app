@@ -13,6 +13,11 @@ h1{
   color: #1DA1F2;
 }
 
+h2{
+  font-size: large;
+  border-bottom: 1px solid #125582;
+}
+
 .mt-5{
   border-top: 20px;
   border-top-color: black;
@@ -23,17 +28,32 @@ h1{
   color: #1DA1F2;
 }
 
-.textcard{
-  width: 700px;
-  height: 200px;
+svg{
+  margin-right: 10px;
 }
 
-.textinput{
-  margin-top: 12px;
-  line-height: 175px;
+.area{
+  margin-left: 10px;
   width: 675px;
+  height: 230px;
+  background-color: white;
+  padding-bottom: 50px;
 }
 
-.textinput::placeholder{
-  text-align: start;
+textarea{
+  color: black
+}
+
+.btn{
+  padding-left: 700px;
+  height: 50px;
+  width: 50px;
+}
+
+.w-6{
+  stroke: #1DA1F2;
+}
+
+.w-6:hover{
+  fill: #125582;
 }
