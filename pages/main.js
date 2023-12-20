@@ -17,13 +17,18 @@ export default function Main(){
                       <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" />
                       <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 12.75 7.5-7.5 7.5 7.5" />
                     </svg>
-                    100
+                    24
                   </div>
                   <div className="entry">
-                    This is what I want to say and there is so much to say and I am just trying to test out what it looks like when there is more than it can handle
+                    This is someone elses entry and it is on your feed
                     <div className="authorname">
-                      authorname
+                      otherauthorname
                     </div>
+                    <div className="text-right">
+                      <button className="px-4 upvote">
+                        Vote
+                      </button>
+                  </div>
                   </div>
               </div>
             </Card>

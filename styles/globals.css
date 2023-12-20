@@ -85,3 +85,31 @@ textarea{
 .ideas{
   margin-right: 20px;
 }
+
+.upvote{
+  border: 2px solid #24d364;
+  border-radius: 15px;
+}
+
+.upvote:hover{
+  background-color: #24d364;
+  color:#F5F8FA
+}
+
+.login{
+  font-size: xx-large;
+  color: #00B6F1;
+}
+
+.username{
+  width: 500px;
+  height: 30px;
+  border-bottom: 1px solid #48a4e1;
+}
+
+.password{
+  margin-top: 20px;
+  width: 500px;
+  height: 30px;
+  border-bottom: 1px solid #48a4e1;
+}

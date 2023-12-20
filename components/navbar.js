@@ -9,7 +9,7 @@ export default function Navigation(){
     }
 
     const goHome = () => {
-        router.push('.')
+        router.push('./home')
     }
     return(
         <Card>
