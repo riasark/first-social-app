@@ -1,4 +1,3 @@
-import { Form } from "react-bootstrap"
 import Navigation from "../components/navbar"
 import Formpost from "@/components/formpost"
 

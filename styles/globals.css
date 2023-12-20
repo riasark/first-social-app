@@ -24,7 +24,6 @@ h2{
 }
 
 .mt-5:hover{
-  cursor: pointer;
   color: #1DA1F2;
 }
 
@@ -55,12 +54,8 @@ textarea{
 }
 
 .w-7{
-  stroke: #1DB954;
+  stroke: #24d364;
   display: block;
-}
-
-.w-7:hover{
-  stroke: #16893f;
 }
 
 
@@ -72,4 +67,17 @@ textarea{
   font-size: small;
   font-weight: 200;
   margin-top: 5px;
+}
+
+.submit{
+  margin-top: 5px;
+  margin-left: 620px;
+  background-color: #1DA1F2;
+  color: #F5F8FA;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.submit:hover{
+  background-color: #00B6F1;
 }
