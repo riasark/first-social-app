@@ -18,13 +18,23 @@ h2{
   border-bottom: 1px solid #125582;
 }
 
-.mt-5{
-  border-top: 20px;
-  border-top-color: black;
+h3{
+  font-size: x-large;
+  padding-bottom: 5%;
+  
 }
 
-.mt-5:hover{
+.inactive{
+  border-top: 20px;
+}
+
+.inactive:hover{
   color: #1DA1F2;
+}
+
+.active{
+  border-top: 20px;
+  color:#1DA1F2;
 }
 
 svg{
@@ -33,7 +43,7 @@ svg{
 
 .area{
   margin-left: 10px;
-  width: 675px;
+  width: 90%;
   height: 230px;
   background-color: white;
   padding-bottom: 50px;
@@ -71,7 +81,7 @@ textarea{
 
 .submit{
   margin-top: 5px;
-  margin-left: 620px;
+  margin-left: 90%;
   background-color: #1DA1F2;
   color: #F5F8FA;
   padding: 5px;
@@ -102,14 +112,52 @@ textarea{
 }
 
 .username{
-  width: 500px;
-  height: 30px;
+  width: 90%;
+  height: 90%;
   border-bottom: 1px solid #48a4e1;
 }
 
 .password{
   margin-top: 20px;
-  width: 500px;
-  height: 30px;
+  width: 90%;
+  height: 90%;
   border-bottom: 1px solid #48a4e1;
+}
+
+.logbtn{
+  border: 1px solid #00B6F1;
+  border-radius: 15px;
+}
+
+.logbtn:hover{
+  background-color: #00B6F1;
+}
+
+.signbtn{
+  border: 1px solid #00B6F1;
+  border-radius: 15px;
+}
+
+.signbtn:hover{
+  background-color: #00B6F1;
+}
+
+.logask{
+  font-size: large;
+  padding-bottom: 7%;
+}
+
+.close-modal{
+  border: 1px solid #00B6F1;
+  border-radius: 10px;
+  padding: 2px
+}
+
+.close-modal:hover{
+  background-color: #00B6F1;
+  color:#F5F8FA
+}
+
+.nav{
+  width: 250px;
 }
