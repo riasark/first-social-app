@@ -1,10 +1,9 @@
-import Navigation from "../components/navbar"
-import Formpost from "@/components/formpost"
+import Login from "./login"
 
 export default function Home() {
   return (
     <div>
-      hold
+      <Login></Login>
     </div>
   )
 }
