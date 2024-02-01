@@ -24,7 +24,7 @@ export default function Formpost(){
                     100
                   </div>
                   <div className="entry">
-                    This is what I want to say and there is so much to say and I am just trying to test out what it looks like when there is more than it can handle
+                    This is what I want to say and there is so much to say and I am just trying to test out what it looks like when there is more than it can handle, does it expand into something more?
                     <div className="authorname">
                       authorname
                     </div>
