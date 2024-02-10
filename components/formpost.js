@@ -1,8 +1,9 @@
 import Card from "../components/Card";
-import Navigation from "../components/navbar";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 export default function Formpost({initialContent}){
+  const router = useRouter();
   const [content, setContent] = useState("");
   useEffect(() => {
       if (initialContent) {

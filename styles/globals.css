@@ -80,7 +80,7 @@ textarea{
 }
 
 .submit{
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left: 90%;
   background-color: #1DA1F2;
   color: #F5F8FA;
@@ -163,17 +163,13 @@ textarea{
 }
 
 .colright{
-  width: 30%;
+  width: 90%;
   
-}
-
-.colleft{
-  width: 30%
 }
 
 .draftpost{
   margin-top: 5px;
-  margin-left: 80%;
+  margin-left: 90%;
   background-color: #1DA1F2;
   color: #F5F8FA;
   padding: 5px;
