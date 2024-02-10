@@ -1,6 +1,6 @@
 ## First Fullstack Development : Social Media App
 
-This is my first endeavor into a fullstack development from creating the frontend to backend to using a database. The idea is to create a social media app which would be used by authors in order to get input from their fans about what ideas they would like to see next, as well as to connect with other authors and create a platform for writers and readers alone. 
+This is my first endeavor into independent fullstack development from creating the frontend to backend to using a database. The idea is to create a social media app which would be used by authors in order to get input from their fans about what ideas they would like to see next, as well as to connect with other authors and create a platform for writers and readers alone. 
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
