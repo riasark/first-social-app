@@ -161,3 +161,25 @@ textarea{
 .nav{
   width: 250px;
 }
+
+.colright{
+  width: 30%;
+  
+}
+
+.colleft{
+  width: 30%
+}
+
+.draftpost{
+  margin-top: 5px;
+  margin-left: 80%;
+  background-color: #1DA1F2;
+  color: #F5F8FA;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.draftpost:hover{
+  background-color: #00B6F1;
+}
