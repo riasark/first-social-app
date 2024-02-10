@@ -1,7 +1,17 @@
 import Navigation from "@/components/navbar";
 import Formpost from "@/components/formpost";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 
 export default function Land(){
+    const router = useRouter();
+    const[draftContent, setDraftContent] = useState("");
+    useEffect(() => {
+        const {draftContent} = router.query;
+        if (draftContent) {
+            setDraftContent(draftContent)
+        }
+    }, [router.query])
     return(
     <>
         <h1> Your Feed</h1>
@@ -12,7 +22,7 @@ export default function Land(){
                 </div>
             </div>
             <div className="postcard">
-                    <Formpost></Formpost>
+                    <Formpost initialContent={draftContent}></Formpost>
                 </div>
         </div>
     </>
