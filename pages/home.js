@@ -14,7 +14,7 @@ export default function Land(){
     }, [router.query])
     return(
     <>
-        <h1> Your Feed</h1>
+        <h1> Home </h1>
         <div className="flex gap-10">
             <div className="ml-10">
                 <div className="nav">
